@@ -8,7 +8,7 @@ import java.util.List;
 class SingleEntityTest {
 
 
-    public void should_return_entity_when_the_entity_exist() {
+    public void should_create_and_return_entity_when_the_create_entity() {
         //given
         Entity entity = new Entity();
         entity.setName("test");
